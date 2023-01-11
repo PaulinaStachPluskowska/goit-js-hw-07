@@ -23,7 +23,7 @@ gallery.addEventListener("click", function (e) {
   }
   e.preventDefault();
   const instance = basicLightbox.create(`<img src="${e.target.dataset.source}" 
-  width="1280" height="720">`);
+  width="800" height="600">`);
   instance.show();
 
   document.addEventListener("keydown", function escape(e) {
